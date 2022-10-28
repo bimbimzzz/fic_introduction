@@ -24,12 +24,22 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Text(
-        "FIC Introduction",
-        style: TextStyle(
-          fontSize: 10.0,
-        ),
+    return Scaffold(
+      body: Column(
+        children: const [
+          Text(
+            "FIC Introduction",
+            style: TextStyle(
+              fontSize: 10.0,
+            ),
+          ),
+          Text(
+            "FIC Introduction",
+            style: TextStyle(
+              fontSize: 10.0,
+            ),
+          ),
+        ],
       ),
     );
   }
